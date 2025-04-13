@@ -6,7 +6,7 @@ A simple and lightweight JavaScript web app to detect Iranian banks based on the
 
 ## 🖼️ Preview
 
-![Preview]()
+![Preview - Iran Bank Detector](preview.jpg)
 
 ## 🔧 Features
 
