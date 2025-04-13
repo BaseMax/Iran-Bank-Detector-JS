@@ -1,0 +1,37 @@
+body, input, textarea, button {
+  font-family: 'Vazir', sans-serif;
+}
+body {
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ffe0e9, #e0eaff);
+}
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+input {
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+input.invalid {
+  border-color: red;
+  box-shadow: 0 0 5px red;
+}
+.bank-name {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
